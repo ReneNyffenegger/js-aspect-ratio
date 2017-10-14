@@ -43,6 +43,10 @@ tq84.aspect_ratio.init = function (
   self.original_h   = original_h;
   self.aspect_ratio = original_h / original_w;
 
+  self.canvas.style.position = 'absolute';
+  self.canvas.style.width    =  self.original_w + 'px';
+  self.canvas.style.height   =  self.original_h + 'px';
+
   self.resized();
 
 }
