@@ -1,3 +1,8 @@
+/*
+
+   http://renenyffenegger.ch/development/web/js-html/js-aspect-ratio/
+
+*/
 "use strict";
 
 function viewport() {
