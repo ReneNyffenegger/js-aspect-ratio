@@ -74,8 +74,8 @@ tq84.aspect_ratio.resized = function() {
 
   }
 
-  let gap_h = (vw.height - self.original_h) / 2;
-  let gap_w = (vw.width  - self.original_w) / 2;
+  var gap_h = (vw.height - self.original_h) / 2;  // 2018-07-01 let -> var
+  var gap_w = (vw.width  - self.original_w) / 2;  // 2018-07-01 let -> var
   self.canvas.style.left = gap_w + 'px';
   self.canvas.style.top  = gap_h + 'px'; 
   self.canvas.style.transform='scale('+(scale*1)+')';
